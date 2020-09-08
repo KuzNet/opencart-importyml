@@ -1,8 +1,7 @@
 <modification>
 	<id>Import YML</id>
-	<version>1.5.3.x</version>
+	<version>1.1</version>
 	<vqmver>1.1.0</vqmver>
-	<author>Gennady Telegin, support@itxd.ru</author>
 	<file name="admin/controller/common/header.php">
 		<operation>
 			<search position="after"><![CDATA[$this->data['text_backup'] = $this->language->get('text_backup');]]></search>
